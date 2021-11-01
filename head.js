@@ -6,3 +6,4 @@ const head = function(arra) {
   }
 
 
+  module.exports = head;
