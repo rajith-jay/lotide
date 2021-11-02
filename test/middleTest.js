@@ -1,7 +1,3 @@
-
-
-
-
 const assert = require('chai').assert;
 const middle   = require('../middle');
 
@@ -10,6 +6,6 @@ describe("#middle", () => {
     assert.deepEqual(middle([1, 2, 3]), [2]);
   });
   it("returns '5' for ['5']", () => {
-    assert.strictEqual(middle(['5']), '5'); 
+    assert.strictEqual(middle(['5']), '5');
   });
-})
+});
